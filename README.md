@@ -1,6 +1,6 @@
 # pg_dbms_metadata
 
-Propose Oracle DBMS_METADATA compatibility for PostgreSQL PGXC,Based on HexaCluster Corp. Version 1.0
+Propose Oracle DBMS_METADATA compatibility for **PostgreSQL PGXC**,Based on HexaCluster Corp. Version 1.0
 
 PostgreSQL extension to extract DDL of database objects in a way compatible to Oracle DBMS_METADATA package. This extension serves a dual purpose—not only does it provide compatibility with the Oracle DBMS_METADATA package, but it also establishes a systematic approach to programmatically retrieve DDL for objects. You now have the flexibility to generate DDL for an object either from a plain SQL query or from PL/pgSQL code. This also enables the extraction of DDL using any client that can execute plain SQL queries. These features distinguishes it from standard methods like pg_dump. 
 
